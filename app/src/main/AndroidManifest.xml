@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ankodemo">
-
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,10 +12,26 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.AnkoCommonsActivity"
+            android:label="@string/anko_commons"/>
+        <activity android:name=".activity.AnkoLayoutsActivity"
+            android:label="@string/anko_layouts"/>
+        <activity android:name=".activity.AnkoSQLiteActivity"
+            android:label="@string/anko_sqlite"/>
+        <activity android:name=".activity.AnkoCoroutinesActivity"
+            android:label="@string/anko_coroutines"/>
+        <activity android:name=".activity.intent.IntentActivity"
+            android:label="@string/commons_intent"/>
+        <activity android:name=".activity.dialog.DialogAndToastActivity"
+            android:label="@string/commons_dialog"/>
+        <activity android:name=".activity.log.LogActivity"
+            android:label="@string/commons_log" />
+        <activity android:name=".activity.resources.ResourcesAndDimensionsActivity"
+            android:label="@string/commons_resources"/>
+        <activity android:name=".activity.SecondActivity"/>
         <activity android:name="SomeActivity"/>
     </application>
 

@@ -13,7 +13,7 @@ class SomeActivity : Activity() {
     class MyView : AnkoComponent<SomeActivity> {
         override fun createView(ui: AnkoContext<SomeActivity>): View = ui.apply {
             linearLayout {
-                textView("Hello World!").lparams(width = wrapContent, height = wrapContent)
+                textView("").lparams(width = wrapContent, height = wrapContent)
             }
         }.view
     }

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">AnkoDemo</string>
+    <string name="message">我是土司</string>
+    <!--一级目录-->
+    <string name="anko_commons">Anko Commons</string>
+    <string name="anko_layouts">Anko Layouts</string>
+    <string name="anko_sqlite">Anko SQLite</string>
+    <string name="anko_coroutines">Anko Coroutines</string>
+    <!--二级目录-->
+    <string name="commons_intent">commons_intent</string>
+    <string name="commons_dialog">commons_dialog</string>
+    <string name="commons_log">commons_log</string>
+    <string name="commons_resources">commons_resources</string>
 </resources>
